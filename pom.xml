@@ -263,6 +263,16 @@
         dependencies required to compile and run Silverpeas
       -->
       <dependency>
+        <groupId>org.carrot2</groupId>
+        <artifactId>carrot2-core</artifactId>
+        <version>3.6.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.carrot2.attributes</groupId>
+        <artifactId>attributes-processor</artifactId>
+        <version>1.0.1</version>
+      </dependency>
+      <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
         <version>${spring.version}</version>
