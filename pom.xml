@@ -266,6 +266,16 @@
         <groupId>org.carrot2</groupId>
         <artifactId>carrot2-core</artifactId>
         <version>3.6.0</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.carrot2.attributes</groupId>
