@@ -31,30 +31,30 @@
   <packaging>pom</packaging>
   <artifactId>parent</artifactId>
   <groupId>com.silverpeas</groupId>
-  <version>24-SNAPSHOT</version>
+  <version>25-SNAPSHOT</version>
   <name>parent</name>
   <organization>
     <name>Silverpeas</name>
     <url>http://www.silverpeas.com</url>
   </organization>
   <url>http://www.silverpeas.org</url>
-  
+
   <ciManagement>
     <system>Jenkins</system>
     <url>http://integration.silverpeas.org/jenkins</url>
   </ciManagement>
-  
+
   <mailingLists>
     <mailingList>
       <name>Silverpeas Users List</name>
-      <archive>http://groups.google.com/group/silverpeas-users</archive>      
-    </mailingList> 
+      <archive>http://groups.google.com/group/silverpeas-users</archive>
+    </mailingList>
     <mailingList>
       <name>Silverpeas Development List</name>
-      <archive>http://groups.google.com/group/silverpeas-dev</archive>      
-    </mailingList> 
+      <archive>http://groups.google.com/group/silverpeas-dev</archive>
+    </mailingList>
   </mailingLists>
-  
+
   <licenses>
     <license>
       <name>GNU Affero General Public License with FLOSS Exception</name>
@@ -88,91 +88,49 @@
     <url>http://gitub.com/Silverpeas/Silverpeas-Parent.git</url>
     <tag>HEAD</tag>
   </scm>
-
   <developers>
     <developer>
       <id>mmoquillon</id>
       <name>Miguel Moquillon</name>
       <roles>
-        <role>Developper</role>
         <role>Architect</role>
+        <role>Developer</role>
       </roles>
-      <organization>Silverpeas.com</organization>
+      <organization>Silverpeas</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
-	  <email>miguel.moquillon@silverpeas.org</email>
+      <email>miguel.moquillon@silverpeas.org</email>
     </developer>
     <developer>
       <id>ehugonnet</id>
       <name>Emmanuel Hugonnet</name>
       <roles>
-        <role>Developper</role>
         <role>Architect</role>
+        <role>Developer</role>
       </roles>
-      <organization>Silverpeas.com</organization>
+      <organization>Silverpeas</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
-	  <email>emmanuel.hugonnet@silverpeas.org</email>
+      <email>emmanuel.hugonnet@silverpeas.org</email>
     </developer>
     <developer>
       <id>cbonin</id>
       <name>Cécile Bonin</name>
       <roles>
-        <role>Developper</role>
         <role>Project Manager</role>
+        <role>Developer</role>
       </roles>
-      <organization>Silverpeas.com</organization>
-      <organizationUrl>http://www.silverpeas.com</organizationUrl>
-    </developer>
-    <developer>
-      <id>dlesimple</id>
-      <name>David Lesimple</name>
-      <roles>
-        <role>Developper</role>
-        <role>Project Manager</role>
-      </roles>
-      <organization>Silverpeas.com</organization>
+      <organization>Silverpeas</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
     </developer>
     <developer>
       <id>neysseric</id>
       <name>Nicolas Eysseric</name>
       <roles>
-        <role>Developper</role>
-        <role>Project Manager</role>
-        <role>CTO</role>
+        <role>Product Manager</role>
+        <role>Developer</role>
       </roles>
-      <organization>Silverpeas.com</organization>
+      <organization>Silverpeas</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
-	  <email>nicolas.eysseric@silverpeas.org</email>
-    </developer>
-    <developer>
-      <id>sfariello</id>
-      <name>Stéphanie Fariello</name>
-      <roles>
-        <role>Developper</role>
-        <role>Project Manager</role>
-      </roles>
-      <organization>Silverpeas.com</organization>
-      <organizationUrl>http://www.silverpeas.com</organizationUrl>
-    </developer>
-    <developer>
-      <id>lbertin</id>
-      <name>Ludovic Bertin</name>
-      <roles>
-        <role>Architect</role>
-        <role>Project Manager</role>
-      </roles>
-      <organization>Oosphere</organization>
-      <organizationUrl>http://www.oosphere.ch</organizationUrl>
-    </developer>
-    <developer>
-      <id>ahedin</id>
-      <name>Antoine Hedin</name>
-      <roles>
-        <role>Architect</role>
-        <role>Project Manager</role>
-      </roles>
-      <organization>Oosphere</organization>
-      <organizationUrl>http://www.oosphere.ch</organizationUrl>
+      <email>nicolas.eysseric@silverpeas.org</email>
     </developer>
     <developer>
       <id>svuillet</id>
@@ -188,8 +146,8 @@
       <id>ebonnet</id>
       <name>Etienne Bonnet</name>
       <roles>
-        <role>Developper</role>
         <role>Project Manager</role>
+        <role>Developer</role>
       </roles>
       <organization>Silverpeas.com</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
@@ -199,23 +157,65 @@
       <name>Aurore Allibe</name>
       <roles>
         <role>Web Designer</role>
-        <role>Project Manager</role>
       </roles>
       <organization>Silverpeas.com</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
     </developer>
-	<developer>
+    <developer>
       <id>ychastagnier</id>
       <name>Yohann Chastagnier</name>
       <roles>
-        <role>Developper</role>
-        <role>Architect</role>
+        <role>Developer</role>
       </roles>
       <organization>Silverpeas.com</organization>
       <organizationUrl>http://www.silverpeas.com</organizationUrl>
-	  <email>yohann.chastagnier@silverpeas.org</email>
+      <email>yohann.chastagnier@silverpeas.org</email>
     </developer>
   </developers>
+
+  <contributors>
+    <contributor>
+      <name>Umar Raad</name>
+      <roles>
+        <role>German translator</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Ludovic Bertin</name>
+      <roles>
+        <role>Project Manager</role>
+        <role>Developer</role>
+      </roles>
+      <organization>Oosphere</organization>
+      <organizationUrl>http://www.oosphere.ch</organizationUrl>
+    </contributor>
+    <contributor>
+      <name>Nicolas Dupont</name>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <organization>Oosphere</organization>
+      <organizationUrl>http://www.oosphere.ch</organizationUrl>
+    </contributor>
+    <contributor>
+      <name>David Lesimple</name>
+      <roles>
+        <role>Support</role>
+        <role>Project Manager</role>
+      </roles>
+      <organization>Silverpeas</organization>
+      <organizationUrl>http://www.silverpeas.com</organizationUrl>
+    </contributor>
+    <contributor>
+      <name>Stéphanie Fariello</name>
+      <roles>
+        <role>Support</role>
+        <role>Project Manager</role>
+      </roles>
+      <organization>Silverpeas</organization>
+      <organizationUrl>http://www.silverpeas.com</organizationUrl>
+    </contributor>
+  </contributors>
   <issueManagement>
     <system>Redmine</system>
     <url>https://www.silverpeas.org/redmine/</url>
@@ -364,7 +364,12 @@
       <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-crypto</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>${spring.security.version}</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.jackson</groupId>
@@ -535,8 +540,8 @@
       </dependency>
       <dependency>
         <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
-        <version>2.5</version>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
@@ -598,7 +603,6 @@
       <dependency>
         <groupId>org.apache.tika</groupId>
         <artifactId>tika-parsers</artifactId>
-        <classifier>silverpeas</classifier>
         <version>${tika.version}</version>
         <exclusions>
           <exclusion>
@@ -790,7 +794,7 @@
           </exclusion>
           <exclusion>
             <groupId>org.bouncycastle</groupId>
-            <artifactId>bcmail</artifactId> 
+            <artifactId>bcmail</artifactId>
           </exclusion>
           <exclusion>
             <groupId>org.bouncycastle</groupId>
@@ -930,6 +934,12 @@
         <groupId>commons-logging</groupId>
         <artifactId>commons-logging</artifactId>
         <version>99.0-does-not-exist</version>
+        <exclusions>
+          <exclusion>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>commons-logging</groupId>
@@ -988,6 +998,16 @@
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jpa</artifactId>
         <version>1.1.2.RELEASE</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>javax.transaction</groupId>
@@ -1159,7 +1179,7 @@
       <dependency>
         <groupId>postgresql</groupId>
         <artifactId>postgresql</artifactId>
-        <version>9.1-902.jdbc4</version>
+        <version>9.2-1002.jdbc4</version>
       </dependency>
       <dependency>
         <groupId>net.sourceforge.jtds</groupId>
@@ -1246,7 +1266,7 @@
       <!-- pb version -->
       <dependency>
         <groupId>com.drewnoakes</groupId>
-        <artifactId>metadata-extractor</artifactId>        
+        <artifactId>metadata-extractor</artifactId>
         <version>2.6.2</version>
       </dependency>
       <dependency>
@@ -1260,9 +1280,23 @@
         <version>0.4</version>
       </dependency>
       <dependency>
-        <groupId>net.fortuna.ical4j</groupId>
+        <groupId>org.mnode.ical4j</groupId>
         <artifactId>ical4j</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.4</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>javax.portlet</groupId>
@@ -1289,7 +1323,7 @@
         <artifactId>mail</artifactId>
         <version>1.4.5</version>
         <scope>provided</scope>
-      </dependency>      
+      </dependency>
       <dependency>
         <groupId>com.ecyrd.jspwiki</groupId>
         <artifactId>jspwiki_silverpeas</artifactId>
@@ -1305,8 +1339,14 @@
         <artifactId>xmlrpc</artifactId>
         <version>2.0.1</version>
         <scope>provided</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
-      <dependency>          
+      <dependency>
         <groupId>org.apache.xmlbeans</groupId>
         <artifactId>xmlbeans</artifactId>
         <version>2.4.0</version>
@@ -1343,6 +1383,14 @@
             <groupId>xerces</groupId>
             <artifactId>xmlParserAPIs</artifactId>
           </exclusion>
+          <exclusion>
+            <groupId>maven-plugins</groupId>
+            <artifactId>maven-cobertura-plugin</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>maven-plugins</groupId>
+            <artifactId>maven-findbugs-plugin</artifactId>
+          </exclusion>
         </exclusions>
       </dependency>
       <dependency>
@@ -1363,6 +1411,10 @@
           <exclusion>
             <groupId>javax.jms</groupId>
             <artifactId>jms</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
@@ -1412,8 +1464,8 @@
       -->
       <dependency>
         <groupId>junit</groupId>
-        <artifactId>junit-dep</artifactId>
-        <version>4.10</version>
+        <artifactId>junit</artifactId>
+        <version>4.11</version>
         <scope>test</scope>
         <exclusions>
           <exclusion>
@@ -1431,7 +1483,7 @@
           <exclusion>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-          </exclusion>  
+          </exclusion>
         </exclusions>
       </dependency>
       <dependency>
@@ -1497,7 +1549,7 @@
         <artifactId>powermock-module-junit4-rule</artifactId>
         <version>${powermock.version}</version>
         <scope>test</scope>
-        <exclusions>          
+        <exclusions>
           <exclusion>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -1624,17 +1676,23 @@
         <artifactId>httpunit</artifactId>
         <version>1.6.2</version>
         <scope>test</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-all</artifactId>
         <version>1.3</version>
         <scope>test</scope>
-      </dependency> 
+      </dependency>
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy-all</artifactId>
-        <version>2.0.5</version> 
+        <version>2.0.5</version>
       </dependency>
       <dependency>
         <groupId>org.forgerock.opendj</groupId>
@@ -1646,6 +1704,18 @@
         <groupId>com.sleepycat</groupId>
         <artifactId>je</artifactId>
         <version>4.1.7</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.netbeans.api</groupId>
+        <artifactId>org-openide-util</artifactId>
+        <version>${netbeans.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.netbeans.api</groupId>
+        <artifactId>org-openide-filesystems</artifactId>
+        <version>${netbeans.version}</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
@@ -1678,17 +1748,18 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.3.2</version>
+        <version>2.4</version>
         <configuration>
           <localCheckout>true</localCheckout>
           <pushChanges>false</pushChanges>
           <autoVersionSubmodules>true</autoVersionSubmodules>
+          <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
           <goals>deploy</goals>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.5.1</version>
+        <version>3.0</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
@@ -1735,7 +1806,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-ejb-plugin</artifactId>
-          <version>2.3</version>    
+          <version>2.3</version>
           <dependencies>
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
@@ -1786,15 +1857,21 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.12.4</version>
+          <version>2.14</version>
           <configuration>
+            <runOrder>alphabetical</runOrder>
             <argLine>-XX:MaxPermSize=128m</argLine>
+            <systemPropertyVariables>
+              <user.timezone>Europe/Paris</user.timezone>
+              <user.language>fr</user.language>
+              <user.country>FR</user.country>
+            </systemPropertyVariables>
           </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
-          <version>2.2.1</version>
+          <version>2.2.2</version>
           <dependencies>
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
@@ -1808,17 +1885,17 @@
           <artifactId>maven-source-plugin</artifactId>
           <version>2.2</version>
         </plugin>
-         <plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.7</version>
         </plugin>
-         <plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.4</version>
         </plugin>
-         <plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>3.1</version>
@@ -1950,27 +2027,29 @@
   <properties>
     <aspectj.version>1.6.12</aspectj.version>
     <bouncycastle.version>1.46</bouncycastle.version>
-    <jersey.version>1.14</jersey.version>
+    <jersey.version>1.17</jersey.version>
     <grizzly2.version>2.2.16</grizzly2.version>
     <jackson.version>1.9.10</jackson.version>
-    <jackrabbit.version>2.5.1</jackrabbit.version>
+    <jackrabbit.version>2.6.0</jackrabbit.version>
     <mockrunner.version>0.4.2</mockrunner.version>
     <wagon.version>2.0</wagon.version>
-    <config.version>2.1-SNAPSHOT</config.version>
+    <config.version>2.1</config.version>
     <slf4j.version>1.5.6</slf4j.version>
-    <lucene.version>3.6.1</lucene.version>
-    <poi.version>3.8</poi.version>
-    <spring.version>3.1.2.RELEASE</spring.version>
+    <lucene.version>3.6.2</lucene.version>
+    <poi.version>3.9</poi.version>
+    <spring.version>3.1.4.RELEASE</spring.version>
+    <spring.security.version>3.1.3.RELEASE</spring.security.version>
     <powermock.version>1.4.12</powermock.version>
     <hibernate.version>3.6.10.Final</hibernate.version>
-    <tika.version>1.2</tika.version>
+    <tika.version>1.3</tika.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <netbeans.hint.license>agpl30</netbeans.hint.license>
     <gpg.passphrase>thephrase</gpg.passphrase>
     <plexusUtilsPluginsVersion>3.0.7</plexusUtilsPluginsVersion>
+    <netbeans.version>RELEASE721</netbeans.version>
   </properties>
-  
+
   <prerequisites>
     <maven>3.0.4</maven>
   </prerequisites>
